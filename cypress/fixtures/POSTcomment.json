@@ -1,0 +1,6 @@
+{
+    "name": "Using POST stubbed",
+    "email": "examplestubb@cypress.io",
+    "body": "Makes assertions on the response body - stubbed response",
+    "id": 2
+  }
