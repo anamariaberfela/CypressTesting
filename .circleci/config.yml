@@ -8,3 +8,9 @@ workflows:
       - cypress/run:
           cypress-command: npx cypress run --browser chrome --spec cypress/e2e/testPages/*.cy.js
           install-browsers: true
+
+  APItests:
+    jobs:
+      - cypress/run:
+          cypress-command: npx cypress run --spec cypress/e2e/apitests/**/*
+          install-browsers: true
